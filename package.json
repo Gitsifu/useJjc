@@ -1,6 +1,6 @@
 {
-  "name": "usejjc",
-  "version": "1.0.1",
+  "name": "use-jjc",
+  "version": "1.0.0",
   "description": "Learn from jjc technology bosses !",
   "main": "dist/index.min.js",
   "repository": {

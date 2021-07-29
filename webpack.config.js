@@ -8,7 +8,7 @@ module.exports = {
     publicPath: "/dist/",
     filename: "index.min.js",
     library: {
-      name: "usejjc",
+      name: "use-jjc",
       type: "umd"
     }
   },
