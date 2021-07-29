@@ -1,20 +1,23 @@
 {
   "name": "usejjc",
-  "version": "1.0.0",
-  "description": "Learn from JJC technology bosses !",
+  "version": "1.0.1",
+  "description": "Learn from jjc technology bosses !",
   "main": "dist/index.min.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gitsifu/v-animated.git"
+    "url": "https://github.com/gitsifu/usejjc.git"
   },
   "bugs": {
-    "url": "https://github.com/gitsifu/v-animated/issues"
+    "url": "https://github.com/gitsifu/usejjc/issues"
   },
   "scripts": {
     "build": "webpack",
     "test": "jest",
     "publish:public": "npm publish --access=public"
   },
+  "keywords": [
+    "usejjc"
+  ],
   "author": "sifu",
   "license": "MIT",
   "dependencies": {},
