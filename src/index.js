@@ -7,3 +7,9 @@ export const mergerArr = (arr1, arr2, key) => {
     return (map.has(item[key]) ? map.get(item[key]) : item)
   });
 }
+
+const useJjc = {
+  mergerArr
+}
+
+export default useJjc
