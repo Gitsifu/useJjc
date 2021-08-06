@@ -11,7 +11,7 @@ npm install --save use-jjc
 ## 使用
 
 ```javascript
-import {mergerArr} from "use-jjc";
+import {mergeArr} from "use-jjc";
 // or
 // import useJjc from "use-jjc"
 
@@ -28,7 +28,7 @@ const arr2 = [
   {label: 'e', value: '0'}
 ]
 
-const output = mergerArr(arr1, arr2, 'label')
+const output = mergeArr(arr1, arr2, 'label')
 // or
 // const output = useJjc.mergerArr(arr1, arr2, 'label')
 console.log(output)
@@ -43,4 +43,16 @@ console.log(output)
 
 ## API
 
-- `mergerArr` 合并数组
+- `mergeArr` 合并数组
+- `daysToDate` 天数转几年几月几日
+
+参数：`days` 天数
+
+返回值：
+```
+{
+    year: 0,
+    month: 0,
+    day: 0,
+}
+```
