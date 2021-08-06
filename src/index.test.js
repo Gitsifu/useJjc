@@ -1,5 +1,4 @@
 import {mergeArr,daysToDate} from './index'
-import {output} from "../webpack.config";
 
 test('test mergeArr', () => {
   const arr1 = [
