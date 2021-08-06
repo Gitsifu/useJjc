@@ -7,6 +7,7 @@ module.exports = {
     path: path.resolve(__dirname, "./dist"),
     publicPath: "/dist/",
     filename: "index.min.js",
+    globalObject: 'this',
     library: {
       name: "use-jjc",
       type: "umd"

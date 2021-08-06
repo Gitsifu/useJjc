@@ -30,7 +30,7 @@ const arr2 = [
 
 const output = mergeArr(arr1, arr2, 'label')
 // or
-// const output = useJjc.mergerArr(arr1, arr2, 'label')
+// const output = useJjc.mergeArr(arr1, arr2, 'label')
 console.log(output)
 // output: 
 // [
